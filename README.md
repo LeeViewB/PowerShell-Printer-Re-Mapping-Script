@@ -17,3 +17,7 @@ What the script will do:
 If it will find the print server for that printer in the "oldServer" column, then it will delete that printer and re-map it from the coresponding "newServer" entry in the servers.csv file. 
 
 IMPORTANT: It is mandatory for printer to exist on the new print server, otherwise the mapping of the printer from the new print server will fail, obviosly. 
+
+---------------------------------------------------------------------------
+<b>Other notes</b>
+The Write-Logs function in the script is from the PSADT 3.7.0. You can replace it with Write-host.
