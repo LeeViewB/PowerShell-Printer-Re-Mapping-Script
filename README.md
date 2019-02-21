@@ -19,5 +19,5 @@ If it will find the print server for that printer in the "oldServer" column, the
 IMPORTANT: It is mandatory for printer to exist on the new print server, otherwise the mapping of the printer from the new print server will fail, obviosly. 
 
 ---------------------------------------------------------------------------
-<b>Other notes</b>
+<b>Other notes</b><br>
 The Write-Logs function in the script is from the PSADT 3.7.0. You can replace it with Write-host.
